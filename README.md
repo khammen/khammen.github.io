@@ -1,5 +1,5 @@
-# khammen.github.io
+# Kurt Hammen
 
-Kurt Hammen
 Email: khammen@udel.edu
-Source code: https://github.com/khammen/khammen.github.io
+
+Repository Link: https://github.com/khammen/khammen.github.io
