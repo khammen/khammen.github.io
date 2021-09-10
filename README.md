@@ -18,7 +18,7 @@ Week of 9/9:
 
 -Finish and polish the HTML site
 
--Learn JavaScript and incorporate JS elements into the HTML site
+-Learn JavaScript and incorporate JS elements into the HTML site (or maybe CSS? Will have to look into which is a more logical next step)
 
 
 #### Repository Changelog
