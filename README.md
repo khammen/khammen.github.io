@@ -20,7 +20,12 @@ Unfortunately, almost nothing was accomplished this week, due to a surge in othe
 I have a lot to accomplish next week, and thankfully should have the time to do it. See the Weekly Goals section for what I'm going to accomplish.
 
 ##### Week of 9/16
-Realized HTML pages are automatically published by Github. See the page I made [here](https://khammen.github.io/HTMLtake2/khammen.html). Note that the embedded Youtube video only shows up properly if you're in Chrome. Realized I have absolutely no idea what to do next, so I'm plugging my way through Codecademy tutorials to see what's out there and what I can do with each language. Screenshots of completion will be in an images folder I'll add later today.
+
+9/19 Touched up the HTML site a tad, integrated the linked video directly. After reading feedback from the TA, disregarded my previous plan and decided to work on React. It's proving to be less
+of a challenge than I anticipated; I hadn't really realized it was just a sort of extension on Javascript. Particularly interesting in the tutorial though, was the section on the importance
+of immutability; while it's something I thought about a little during past classes, the ability to reference prior states (beyond just returning to a specific turn in tic-tac-toe) suddenly
+seems commonplace and important everywhere, as it's the same way that things like text editors can Undo and Redo. (It also probably makes debugging easier, since you can see exactly what happended
+at any given point, or compare directly to a prior iteration to see what changed). It's also rather reminiscent of the version control that Git provides!
 
 #### Weekly Goals (TODO)
 Week of 9/9:
@@ -48,3 +53,5 @@ Week of 9/16:
 9/9/21 - Finished setup of Git on my local computer, documented progress. Trying to work with HTML again. Updated README with Weekly Goals/Reports
 
 9/16/21 - Somehow got the previously-broken HTML page to work perfectly fine? Not really sure what I did (was accomplished the 14th, but forgot to push). Got a rough outline completed for the site. Updated weekly progress reports and TODO.
+
+9/19/21 - Reorganized some image files, started working with the tic-tac-toe React tutorial.
