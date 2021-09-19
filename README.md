@@ -19,6 +19,9 @@ Unfortunately, almost nothing was accomplished this week, due to a surge in othe
 
 I have a lot to accomplish next week, and thankfully should have the time to do it. See the Weekly Goals section for what I'm going to accomplish.
 
+##### Week of 9/16
+Realized HTML pages are automatically published by Github. See the page I made [here](https://khammen.github.io/HTMLtake2/khammen.html). Note that the embedded Youtube video only shows up properly if you're in Chrome. Realized I have absolutely no idea what to do next, so I'm plugging my way through Codecademy tutorials to see what's out there and what I can do with each language. Screenshots of completion will be in an images folder I'll add later today.
+
 #### Weekly Goals (TODO)
 Week of 9/9:
 
