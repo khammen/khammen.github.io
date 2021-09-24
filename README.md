@@ -25,6 +25,8 @@ I have a lot to accomplish next week, and thankfully should have the time to do 
 
 9/21 Seemed like there's a lot you can do with React, and it incorporates some of the other things, so I'm setting out on making a Hangman game through it. Progress updates will be listed here. 
 
+9/22: Started working on a React hangman game. Have an idea of what I want it to be, and set out with the objective of first just having a series of hangman images that updated on click. Had issues with it always displaying the last image instead of actually working, so on 9/23 I started following along with Dr. Bart's video of the TA trainer app, but for some reason nothing's rendering on my site. Hopefully bashing my head against the keyboard for the next hour will yield something, but we'll see. 
+
 #### Weekly Goals (TODO)
 Week of 9/9:
 
