@@ -29,6 +29,8 @@ I have a lot to accomplish next week, and thankfully should have the time to do 
 
 Follow up: I'm absolutely losing my mind. I had a somewhat functional base: Images were rendering, the site was loading properly, I was making progress. Having trouble updating the images properly, I followed along for ~30 minutes to the TA Trainer App video, and now everything is horribly, horribly broken. For some reason, nmp start won't even do anything anymore, giving me the error "'react-scripts' is not recognized as an internal or external command, operable program, or batch file", so I can't even see what my program is doing. It's been two hours and I can't get anything to work. I may just delete the program and start from scratch, but I'm in no state right now to do that. I also have learned a lesson in the value of frequent commits: I figured I'd commit it to the repo once it was a functional program, but I missed my very brief window, and now I don't have a past commit of my image-loading version.
 
+npm-start is working again, so huzzah for that. Code is completely nonfunctional at the moment (displays no errors, oddly enough, yet doesn't actually display the elements I have in render). At this point, the code's just a hot mess of my own work and elements from the video, and at this point I'm willing to call npm-start working a big enough success for now. We'll see what I can do tomorrow.
+
 #### Weekly Goals (TODO)
 Week of 9/9:
 
@@ -46,7 +48,17 @@ Week of 9/16:
 
 -Work with CSS to change the website layout to something other than "aligned left" and make it look more visually appealing. [Here's](https://runestone.academy/runestone/books/published/webfundamentals/CSS/toctree.html) a source I may use.
 
+Week of 9/23:
 
+- Finish the Hangman site. I have a diagram of what it should look like,as well as a series of goals to accomplish on the way to finishing it:
+- Fix the fact that it's broken and displaying nothing
+- Update the image depicting number of wrong guesses on a click
+- Receive word as input from user, display number of blanks equal to number of letters
+- Receive letter guesses, display correct letter guesses in correct places, display incorrect guesses below
+- Update image on incorrect guess
+- Restart button
+- Implemenation of different modes! Player vs Player (base mode), Player vs CPU, etc. Will be lowest priority.
+- To accomplish this, I really need to stop by office hours or ask for help; I was off to a good start, but after breaking things I've spent incredibly long making zero progress, and that needs to change. I think I can reasonably set a goal to accomplish one of these tasks a day for Friday/Saturday/Sunday, leaving me with time during the week to wrap up any issues and have a rough but functional base game going.
 #### Repository Changelog
 8/31/21 - Creation of README 
 
@@ -61,3 +73,5 @@ Week of 9/16:
 9/19/21 - Finished React Tutorial
 
 9/21/21 - Started working on Hangman game.
+
+9/23/21 - Attempted to fix images not properly updating in hangman game, instead broke everything. Sigh. 
