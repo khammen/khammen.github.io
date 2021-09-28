@@ -31,6 +31,8 @@ Follow up: I'm absolutely losing my mind. I had a somewhat functional base: Imag
 
 npm-start is working again, so huzzah for that. Code is completely nonfunctional at the moment (displays no errors, oddly enough, yet doesn't actually display the elements I have in render). At this point, the code's just a hot mess of my own work and elements from the video, and at this point I'm willing to call npm-start working a big enough success for now. We'll see what I can do tomorrow.
 
+9/28: Figured out that the issues were from using a JS version of React, as opposed to a TS version. I'll be keeping the old repository around as "hangman", but I won't be publishing it as a React app or further updating it. The new version will be "tshangman". 
+
 #### Weekly Goals (TODO)
 Week of 9/9:
 
@@ -75,3 +77,5 @@ Week of 9/23:
 9/21/21 - Started working on Hangman game.
 
 9/23/21 - Attempted to fix images not properly updating in hangman game, instead broke everything. Sigh. 
+
+9/28/21 - Ceasing work on hangman, replacing with new React app tshangman to fix the issues associated with not having typescript.
