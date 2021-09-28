@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import { Background } from './components/Background';
-import {WordProgress} from './components/WordProgress';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
-import { Container } from 'react-bootstrap';
+//import { Background } from './components/Background';
+//import {WordProgress} from './components/WordProgress';
+//import 'bootstrap/dist/css/bootstrap.min.css';
+//import Button from 'react-bootstrap/Button';
+//import { Container } from 'react-bootstrap';
 
 function App(): JSX.Element {
     return (
