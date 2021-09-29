@@ -13,7 +13,7 @@ export function WordProgress(): JSX.Element{
      * Naturally I can't have that be a fixed string, since I'd need to concatenate each wrong guess. Is there a way to pass a variable
      * into an HTML body, or should I try to find another way to do this?
      */
-
+    
     return <div>
         <h1>Letters Guessed:</h1>
         <div>Wrong Letters: </div>
