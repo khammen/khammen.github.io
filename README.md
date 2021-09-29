@@ -31,7 +31,11 @@ Follow up: I'm absolutely losing my mind. I had a somewhat functional base: Imag
 
 npm-start is working again, so huzzah for that. Code is completely nonfunctional at the moment (displays no errors, oddly enough, yet doesn't actually display the elements I have in render). At this point, the code's just a hot mess of my own work and elements from the video, and at this point I'm willing to call npm-start working a big enough success for now. We'll see what I can do tomorrow.
 
+##### Week of 9/23
+
 9/28: Figured out that the issues were from using a JS version of React, as opposed to a TS version. I'll be keeping the old repository around as "hangman", but I won't be publishing it as a React app or further updating it. The new version will be "tshangman". 
+
+Continued working on tshangman. Attempted to use Bootstrap to get some spiffy formatting, but having trouble getting rows and columns to actually work. Put formatting aside for a while and worked on adding the word bank, though now I'm trying to figure out how to pass a TS variable into HTML, since I'm planning on concatenating wrong guesses onto a string variable that then gets rendered. Might have to change my approach if that's not possible.
 
 #### Weekly Goals (TODO)
 Week of 9/9:
@@ -78,4 +82,4 @@ Week of 9/23:
 
 9/23/21 - Attempted to fix images not properly updating in hangman game, instead broke everything. Sigh. 
 
-9/28/21 - Ceasing work on hangman, replacing with new React app tshangman to fix the issues associated with not having typescript.
+9/28/21 - Ceasing work on hangman, replacing with new React app tshangman to fix the issues associated with not having typescript. Continued developing the app, running into roadblocks documented in the weekly reports section.
