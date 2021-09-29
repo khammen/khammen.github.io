@@ -11,9 +11,15 @@ function App(): JSX.Element {
     return (
       <Container className="App">
         <Row>
-          <Background></Background>
-          <WordProgress></WordProgress>
-          <Menu></Menu>
+          <Col>
+            <Background></Background>
+          </Col>
+          <Col>
+            <WordProgress></WordProgress>
+          </Col>
+          <Col>
+            <Menu></Menu>
+          </Col>
         </Row>          
       </Container> 
     );
