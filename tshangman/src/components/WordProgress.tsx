@@ -1,6 +1,16 @@
 
-export function WordProgress(): JSX.Element{
-    /**
+import { letterDisplay } from '../interfaces/letterDisplay';
+
+export function WordProgress({wrongLetters}: {wrongLetters: string}): JSX.Element{
+   
+    return <div>
+        <h1>Letters Guessed: </h1>
+        <div>Wrong Letters: {wrongLetters}</div>
+        
+    </div>
+}
+
+ /**
      * Things to include here:
      * - Letter count function
      * - Render blanks for every letter
@@ -13,9 +23,3 @@ export function WordProgress(): JSX.Element{
      * Naturally I can't have that be a fixed string, since I'd need to concatenate each wrong guess. Is there a way to pass a variable
      * into an HTML body, or should I try to find another way to do this?
      */
-    
-    return <div>
-        <h1>Letters Guessed:</h1>
-        <div>Wrong Letters: </div>
-    </div>
-}
