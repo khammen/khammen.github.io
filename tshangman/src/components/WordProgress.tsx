@@ -1,12 +1,13 @@
 
 import { letterDisplay } from '../interfaces/letterDisplay';
 
-export function WordProgress({wrongLetters}: {wrongLetters: string}): JSX.Element{
+export function WordProgress({wrongLetters, blanks}: {wrongLetters: string, blanks: string}): JSX.Element{
    
     return <div>
-        <h1>Letters Guessed: </h1>
-        <div>Wrong Letters: {wrongLetters}</div>
-        
+        <h1>Letters Guessed:</h1>
+        <div><strong>Wrong Letters:</strong> {wrongLetters}</div>
+        <div><strong>Word Progress:</strong></div>
+        <div>{blanks}</div>
     </div>
 }
 
