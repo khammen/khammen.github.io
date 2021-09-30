@@ -9,15 +9,16 @@ import { Container, Col, Row } from 'react-bootstrap';
 import { letterDisplay } from './interfaces/letterDisplay';
 
 function App(): JSX.Element {
-  const [guessedLetters, setGuessedLetters] = useState('asdfds');
+  const [guessedLetters, setGuessedLetters] = useState('');
+  const [hangStage, sethangStage] = useState(0);
     return (
       <Container className="App">
         <Row>
           <Col>
-            <Background></Background>
+            <Background lossLevel = {hangStage}></Background>
           </Col>
           <Col>
-            <WordProgress wrongLetters= {guessedLetters}></WordProgress>
+            <WordProgress wrongLetters = {guessedLetters}></WordProgress>
             <Menu></Menu>
           </Col>
         </Row>          

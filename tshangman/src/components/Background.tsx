@@ -6,8 +6,8 @@ import Hang4 from './Images/Hang4.jpg';
 import Hang5 from './Images/Hang5.jpg';
 import HangGameOver from './Images/HangGameOver.jpg';
 
-var lossLevel:number = 3;
-export function Background(): JSX.Element{
+//var lossLevel:number = 3;
+export function Background({lossLevel}: {lossLevel: number}): JSX.Element{
     if (lossLevel==0){
         return <div>
         <img src={Hang0}/>
