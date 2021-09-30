@@ -8,6 +8,14 @@ import Button from 'react-bootstrap/Button';
 import { Container, Col, Row } from 'react-bootstrap';
 import { letterDisplay } from './interfaces/letterDisplay';
 
+/**To Do list:
+ * Have image update on entering a letter
+ * Accept word and save it to newWord
+ * Display blanks for the guessed word
+ * Parse relevant strings to figure out where guessed letters go
+ * Replace blanks with right letter guesses 
+ */
+
 function App(): JSX.Element {
   const [guessedLetters, setGuessedLetters] = useState<string>('');
   const [hangStage, setHangStage] = useState<number>(0);

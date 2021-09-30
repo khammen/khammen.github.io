@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button } from 'react-bootstrap';
+import { Button,  } from 'react-bootstrap';
 //props: {setGuessedLetters: (newlets: string)=>void}
 
 export function Menu({lossLevel, setLossLevel, wrongLetters, setWrongLetters, hiddenWord, setHiddenWord}: 
@@ -15,13 +15,19 @@ export function Menu({lossLevel, setLossLevel, wrongLetters, setWrongLetters, hi
       setHiddenWord('');
     }
     function guessBox(boxText: string){
-      setHiddenWord(boxText);
+      if (hiddenWord.includes(entryBoxText)){
+        //placeholder, update blanks
+      } else {
+        setWrongLetters(wrongLetters + entryBoxText);
+        setLossLevel(lossLevel+1);
+      }
       setEntryBoxText('');
     }
+
     return <div><form>
     <input
         type="textbox"
-        name="Enter a new word"
+        name="Enter a letter to guess:"
         value={entryBoxText}
         onChange={(e)=>{setEntryBoxText(e.target.value)}}
       />
