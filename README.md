@@ -83,3 +83,5 @@ Week of 9/23:
 9/23/21 - Attempted to fix images not properly updating in hangman game, instead broke everything. Sigh. 
 
 9/28/21 - Ceasing work on hangman, replacing with new React app tshangman to fix the issues associated with not having typescript. Continued developing the app, running into roadblocks documented in the weekly reports section.
+
+9/30/21 - Finished hangman app! It's fully functional now, though kind of ugly. Will polish it a little bit if I get the app published to ghpages in time, but we'll see if that happens.
