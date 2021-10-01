@@ -20,6 +20,7 @@ function App(): JSX.Element {
   const [hangStage, setHangStage] = useState<number>(0);
   const [letterSlots, setLetterSlots] = useState<string>('');
   const [newWord, setNewWord] = useState<string>('');
+  const [blanks, setBlanks] = useState<string>("");
     return (
       <Container className="App">
         <Row>
@@ -27,11 +28,13 @@ function App(): JSX.Element {
             <Background lossLevel = {hangStage}></Background>
           </Col>
           <Col>
-            <WordProgress wrongLetters = {guessedLetters}
-            hiddenWord= {newWord} setHiddenWord = {setNewWord}></WordProgress>
+            <WordProgress guessedLetters = {guessedLetters}
+            hiddenWord= {newWord} setHiddenWord = {setNewWord}
+            blanks = {blanks} setBlanks = {setBlanks}></WordProgress>
             <Menu lossLevel = {hangStage} setLossLevel = {setHangStage}
             guessedLetters = {guessedLetters} setGuessedLetters = {setGuessedLetters}
-            hiddenWord = {newWord} setHiddenWord = {setNewWord}></Menu>
+            hiddenWord = {newWord} setHiddenWord = {setNewWord}
+            blanks = {blanks} setBlanks = {setBlanks}></Menu>
           </Col>
         </Row>          
       </Container> 

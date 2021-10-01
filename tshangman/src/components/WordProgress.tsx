@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { letterDisplay } from '../interfaces/letterDisplay';
 
-export function WordProgress({wrongLetters, hiddenWord, setHiddenWord}:
-     {wrongLetters: string, hiddenWord: string, setHiddenWord: (newWord: string)=>void}): JSX.Element{
+export function WordProgress({guessedLetters, hiddenWord, setHiddenWord, blanks, setBlanks}:
+     {guessedLetters: string, hiddenWord: string, setHiddenWord: (newWord: string)=>void,
+        blanks: string, setBlanks: (newBlanks: string)=>void}): JSX.Element{
     
-    const [blanks, setBlanks] = useState<string>("");
-
+/*
     function displayBlanks(hiddenWord: string, guessedLetters: string): string{
         let displayLetter = false;
         for (let i=0; i<hiddenWord.length; i++){
@@ -21,13 +21,13 @@ export function WordProgress({wrongLetters, hiddenWord, setHiddenWord}:
             }
         }
         return blanks;
-    }
+    }*/
 
     return <div>
         <h1>Letters Guessed:</h1>
-        <div><strong>Wrong Letters:</strong> {wrongLetters}</div>
+        <div><strong>Guessed Letters:</strong> {guessedLetters}</div>
         <div><strong>Word Progress:</strong>{hiddenWord}</div>
-        <div>{hiddenWord}</div>
+        <div>{blanks}</div>
     </div>
 }
 
