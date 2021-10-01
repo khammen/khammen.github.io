@@ -9,7 +9,6 @@ import { Container, Col, Row } from 'react-bootstrap';
 import { letterDisplay } from './interfaces/letterDisplay';
 
 /**To Do list:
- * Have image update on entering a letter
  * Accept word and save it to newWord
  * Display blanks for the guessed word
  * Parse relevant strings to figure out where guessed letters go
@@ -28,11 +27,11 @@ function App(): JSX.Element {
             <Background lossLevel = {hangStage}></Background>
           </Col>
           <Col>
-            <WordProgress wrongLetters = {guessedLetters} blanks = {letterSlots}
+            <WordProgress wrongLetters = {guessedLetters}
             hiddenWord= {newWord} setHiddenWord = {setNewWord}></WordProgress>
             <Menu lossLevel = {hangStage} setLossLevel = {setHangStage}
-            wrongLetters = {guessedLetters} setWrongLetters = {setGuessedLetters}
-            hiddenWord= {newWord} setHiddenWord = {setNewWord}></Menu>
+            guessedLetters = {guessedLetters} setGuessedLetters = {setGuessedLetters}
+            hiddenWord = {newWord} setHiddenWord = {setNewWord}></Menu>
           </Col>
         </Row>          
       </Container> 
