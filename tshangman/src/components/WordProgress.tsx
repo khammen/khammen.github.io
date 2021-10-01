@@ -26,16 +26,8 @@ export function WordProgress({guessedLetters, hiddenWord, setHiddenWord, blanks,
     return <div>
         <h1>Letters Guessed:</h1>
         <div><strong>Guessed Letters:</strong> {guessedLetters}</div>
-        <div><strong>Word Progress:</strong>{hiddenWord}</div>
-        <div>{blanks}</div>
+        <div><strong>Word Progress:</strong></div>
+        <h2><strong>{blanks}</strong></h2>
     </div>
 }
 
- /**
-     * Things to include here:
-     * - Letter count function
-     * - Render blanks for every letter
-     *  - Each its own object?
-     * - Replace blank with letter when it's guessed
-     * - Wrong letter display
-     */

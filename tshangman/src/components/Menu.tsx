@@ -52,7 +52,7 @@ export function Menu({lossLevel, setLossLevel, guessedLetters, setGuessedLetters
       }
     }
 
-    return <div><form>
+    return <div>
     <input
         type="textbox"
         name="Enter a letter to guess:"
@@ -60,8 +60,6 @@ export function Menu({lossLevel, setLossLevel, guessedLetters, setGuessedLetters
         onChange={(e)=>{setEntryBoxText(e.target.value)}}
       />
       <Button onClick= {()=> guessBox(entryBoxText)}>Submit</Button>
-  </form>
-  <Button onClick= {()=> setLossLevel(lossLevel+1)}>Update image</Button>
   <Button onClick= {()=> resetGame()}>New Game</Button>
   </div>
 }
