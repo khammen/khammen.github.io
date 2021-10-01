@@ -37,6 +37,8 @@ npm-start is working again, so huzzah for that. Code is completely nonfunctional
 
 Continued working on tshangman. Attempted to use Bootstrap to get some spiffy formatting, but having trouble getting rows and columns to actually work. Put formatting aside for a while and worked on adding the word bank, though now I'm trying to figure out how to pass a TS variable into HTML, since I'm planning on concatenating wrong guesses onto a string variable that then gets rendered. Might have to change my approach if that's not possible.
 
+All done with hangman! Finished it last night, fell asleep while getting it pulbished to gh pages. View it here: https://khammen.github.io/tshangman/
+
 #### Weekly Goals (TODO)
 Week of 9/9:
 
@@ -85,3 +87,5 @@ Week of 9/23:
 9/28/21 - Ceasing work on hangman, replacing with new React app tshangman to fix the issues associated with not having typescript. Continued developing the app, running into roadblocks documented in the weekly reports section.
 
 9/30/21 - Finished hangman app! It's fully functional now, though kind of ugly. Will polish it a little bit if I get the app published to ghpages in time, but we'll see if that happens.
+
+10/1/21- Finished publishing to github pages, fell asleep before I could last night. See it here: https://khammen.github.io/tshangman/
