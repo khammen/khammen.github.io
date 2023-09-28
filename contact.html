@@ -6,14 +6,14 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Contact</title>
     <script src="javascript/navbar.js" defer></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
         (function() {
             // https://dashboard.emailjs.com/admin/account
             emailjs.init('YGl9VvSoP4cZylcA5');
         })();
     </script>
-    <script type="text/javascript" src="javascript/email.js"></script>
+    <script src="javascript/email.js"></script>
 </head>
     <body>
         <nav-component></nav-component>
@@ -34,7 +34,7 @@
                 <input type="text" id="user_phone" name="user_phone">
                 
                 <div>Message:</div>
-                <textarea type="text" id="user_message" name="user_message" rows="6" cols="50"></textarea>
+                <textarea id="user_message" name="user_message" rows="6" cols="50"></textarea>
                 <input type="submit" value="Submit">
             </form>
         </div>
