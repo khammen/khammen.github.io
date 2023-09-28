@@ -27,5 +27,6 @@ window.onload = function() {
             }, function(error) {
                 console.log('FAILED...', error);
             });
+        alert('Email sent!')
     });
 }
