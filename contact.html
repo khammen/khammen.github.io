@@ -14,28 +14,43 @@
         })();
     </script>
     <script src="javascript/email.js"></script>
+    <script src="javascript/dropdown.js" defer></script>
+    <script src="javascript/footer.js" defer></script>
 </head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9Q2PFLQ8QV"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-9Q2PFLQ8QV');
+        </script>
     <body>
         <nav-component></nav-component>
-        <div>
-            <form id="contact-form">
-                <input type="hidden" name="contact_number">
+        <div class="container">
+            <div class="left-container">
+                <form id="contact-form">
+                    <input type="hidden" name="contact_number">
 
-                <label for="user_lname">Last Name</label>
-                <input type="text" id="user_lname" name="user_lname">
+                    <label for="user_lname">Last Name</label>
+                    <input type="text" id="user_lname" name="user_lname">
 
-                <label for="user_fname">First Name</label>
-                <input type="text" id="user_fname" name="user_fname">
+                    <label for="user_fname">First Name</label>
+                    <input type="text" id="user_fname" name="user_fname">
 
-                <label for="user_email">Email (format username@domain.tld)</label>
-                <input type="text" id="user_email" name="user_email">
-                
-                <label for="user_phone">Phone (format xxx-xxx-xxxx)</label>
-                <input type="text" id="user_phone" name="user_phone">
-                
-                <div>Message:</div>
-                <textarea id="user_message" name="user_message" rows="6" cols="50"></textarea>
-                <input type="submit" value="Submit">
-            </form>
+                    <label for="user_email">Email (format username@domain.tld)</label>
+                    <input type="text" id="user_email" name="user_email">
+                    
+                    <label for="user_phone">Phone (format xxx-xxx-xxxx)</label>
+                    <input type="text" id="user_phone" name="user_phone">
+                    
+                    <div>Message:</div>
+                    <textarea id="user_message" name="user_message" rows="6" cols="50"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="right-container"></div>
         </div>
+        <footer-component></footer-component>
     </body>

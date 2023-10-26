@@ -6,20 +6,36 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
         <title>About Me</title>
         <script src="javascript/navbar.js" defer></script>
+        <script src="javascript/dropdown.js" defer></script>
+        <script src="javascript/footer.js" defer></script>
     </head>
+    <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9Q2PFLQ8QV"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-9Q2PFLQ8QV');
+        </script>
     <body>
         <nav-component></nav-component>
-        <h1>About Me</h1>
-        <p>
-        This is my last semester to finish up my CS degree with a concentration in AI and Robotics. I'm also an applied clarinet music minor! <br>
-        When I'm not in class, I enjoy hiking, learning new musical instruments, reading, and playing games. 
-        </p>
-        <p>Fun fact: Me, my grandfather, and his grandfather all share the same birthday.</p>
-        <p>Things I'm looking forward to learning in this class:</p>
-        <ul>
-            <li>How to better style with CSS</li>
-            <li>Basic and advanced princpiples of web design and development</li>
-            <li>Learning the limits of what can be done with websites</li>
-        </ul>
+        <div class="centered">
+            <h1>About Me</h1>
+            <img src = "Images/headshot.jpg" alt = "Headshot">
+            <p>something about how I got into cs I guess</p>
+            <p>
+            This is my last semester to finish up my CS degree with a concentration in AI and Robotics. I'm also an applied clarinet music minor! <br>
+            When I'm not in class, I enjoy hiking, learning new musical instruments, reading, and playing games. 
+            </p>
+            <p>Fun fact: Me, my grandfather, and his grandfather all share the same birthday.</p>
+            <p>Things I'm looking forward to learning in this class:</p>
+            <ul>
+                <li>How to better style with CSS</li>
+                <li>Basic and advanced princpiples of web design and development</li>
+                <li>Learning the limits of what can be done with websites</li>
+            </ul>
+        </div>
     </body>
+    <footer-component></footer-component>
 </html>

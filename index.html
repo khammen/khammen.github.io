@@ -4,17 +4,39 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" type="text/css" href="styles.css">
-        <title>CISC474 Personal Webpage</title>
+        <title>Kurt Hammen</title>
         <script src="javascript/navbar.js" defer></script>
+        <script src="javascript/dropdown.js" defer></script>
+        <script src="javascript/footer.js" defer></script>
+        <script src="javascript/textReveal.js" defer></script>
     </head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9Q2PFLQ8QV"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-9Q2PFLQ8QV');
+        </script>
     <body>
         <nav-component></nav-component>
         <div class = "centered">  
-            <h1>Assignment 1</h1>
+            <div id="revealing-text1" class="greeting"></div>
             <!--Kurt Hammen, CISC474, Personal Web Page 1, khammen@udel.edu-->
-            <h2>Personal Web Page 1</h2>
-            <p>Kurt Hammen</p>
-            <img src = "headshot.jpg" alt = "Headshot">
+            <!--Needs breaking up, but here's what I plan on saying-->
+            <p>My name's Kurt Hammen, and I'm a senior Computer Science Major at the University of Delaware. <br>
+                Once this semester finishes, I'll be continuing my education in a master's/PhD program <br>
+                researching applications of artifical intelligence to modern infrastructure.<br><br>
+                
+                Once that wraps up, I plan on entering the tech industry and using what I've learned <br> 
+                to develop software solutions for modern problems. You can learn more about me by <br>
+                checking out my resume here, or by scrolling down and seeing my past and upcoming projects!
+            </p>
+            <a class="button" href="Kurt Hammen Resume.pdf" download="Kurt Hammen Resume.pdf">Check out my Resume!</a>
+            <p>Past projects</p>
+            <p>Ongoing projects</p>
         </div>
+        <footer-component></footer-component>
   </body>
 </html>

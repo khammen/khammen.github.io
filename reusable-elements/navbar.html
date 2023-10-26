@@ -1,21 +1,32 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <script src="/javascript/dropdown.js" defer></script>
 </head>
 <body>
     <nav class = "navbar">
         <div class="lcolumn">
-            <a class = button href="https://kroth353.github.io/">Previous Student</a>
-        </div>
-        <div class="column">
-            <a class = button href="https://mattm401.github.io/">Course Page</a>
             <a class = button href="index.html">Home</a>
-            <a class = button href="aboutMe.html">About Me!</a>
-            <a class = button href="contact.html">Contact Form</a>
+            <a class = button href="work.html">My Work</a>
+            <a class = button href="contact.html">Contact Me!</a>
         </div>
         <div class="rcolumn">
-            <a class = button href="https://faithlovell.github.io/">Next Student</a>
+            <div class="dropdown">
+                <div id="dropdownButton" class="button">Course Links</div>
+                <div id="dropdownContent" class="dropdown-content">
+                    <a href="https://kroth353.github.io/">Previous Student</a>
+                    <a href="https://mattm401.github.io/">Course Page</a>
+                    <a href="https://faithlovell.github.io/">Next Student</a>
+                </div>
+            </div>              
         </div>
     </nav>
 </body>
+
+
+<!--
+    <a class = button href="https://kroth353.github.io/">Previous Student</a>
+    <a class = button href="https://mattm401.github.io/">Course Page</a>
+    <a class = button href="https://faithlovell.github.io/">Next Student</a>
+-->

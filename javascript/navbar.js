@@ -6,18 +6,21 @@ class Navbar extends HTMLElement {
     connectedCallback() {
       //Could move the style stuff to a CSS file
       this.innerHTML = `
-  <nav class = "navbar">
+      <nav class = "navbar">
       <div class="lcolumn">
-          <a class = button href="https://kroth353.github.io/">Previous Student</a>
-      </div>
-      <div class="column">
-          <a class = button href="https://mattm401.github.io/">Course Page</a>
-          <a class = button href="index.html">Home</a>
-          <a class = button href="aboutMe.html">About Me!</a>
-          <a class = button href="contact.html">Contact Form</a>
+          <a class = button href="index.html">My Work</a>
+          <a class = button href="aboutMe.html">About Me</a>
+          <a class = button href="contact.html">Contact Me!</a>
       </div>
       <div class="rcolumn">
-          <a class = button href="https://faithlovell.github.io/">Next Student</a>
+          <div class="dropdown">
+              <div id="dropdownButton" class="button">Course Links</div>
+              <div id="dropdownContent" class="dropdown-content">
+                  <a href="https://kroth353.github.io/">Previous Student</a>
+                  <a href="https://mattm401.github.io/">Course Page</a>
+                  <a href="https://faithlovell.github.io/">Next Student</a>
+              </div>
+          </div>              
       </div>
   </nav>`;
     }
