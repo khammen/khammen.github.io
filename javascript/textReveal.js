@@ -10,10 +10,12 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         reveal();
     }
-    // Usage example
-    const greeting = document.getElementById('greeting');
-    revealText(greeting, "Hello There!", 70);
-
-    const element2 = document.getElementById('greeting2');
-    revealText(element2, "About Me", 70);
+    if (window.location.pathname === '/index.html'){
+        const greeting = document.getElementById('greeting');
+        revealText(greeting, "Hello There!", 70);
+    } else if (window.location.pathname === '/aboutMe.html'){
+        const element2 = document.getElementById('greeting2');
+        revealText(element2, "About Me", 70);
+    }
+    
 });
