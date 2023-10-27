@@ -10,7 +10,7 @@ class Footer extends HTMLElement {
         <div class="lcolumn">
             <div>Stay up to date with what I'm doing!
                 <a href="https://github.com/khammen/">
-                    <img class="logo" src="/Images/GitHub-logo.png" alt="GitHub-logo">
+                    <img class="logo" src="/Files/GitHub-logo.png" alt="GitHub-logo">
                 </a>
             </div>
         </div>

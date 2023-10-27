@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', function () {
         reveal();
     }
     // Usage example
-    const greeting = document.getElementById('revealing-text1');
+    const greeting = document.getElementById('greeting');
     revealText(greeting, "Hello There!", 70);
 
-    const element2 = document.getElementById('revealing-text2');
-    revealText(element2, "Different Text for Element 2.", 40);
+    const element2 = document.getElementById('greeting2');
+    revealText(element2, "About Me", 70);
 });
