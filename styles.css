@@ -20,6 +20,25 @@ body {
     text-align: center
 }
 
+@media (min-width: 768px) {
+    .centered {
+        width: 40%; /* Set the width to 33% of the screen width */
+        margin: 0 auto; /* Center the element horizontally */
+    }
+}
+
+/* Media query for screens narrower than a certain width (e.g., mobile) */
+@media (max-width: 767px) {
+    .centered {
+        width: 100%; /* Set the width to 100% of the screen width */
+    }
+}
+
+.showcase {
+    text-align: center;
+}
+
+
 .lcolumn {
     flex: 1; /* Grow and shrink to occupy available space */
     text-align: left; /* Align text to the left */
