@@ -14,6 +14,10 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .centered {
@@ -160,10 +164,16 @@ footer {
     justify-content: space-between;
 }
 
-.left-container {
+.contact-container {
     width: 60%; /* Set the form container to take up 50% of the screen width */
     padding: 20px;
     box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.left-container{
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .form {
@@ -177,7 +187,7 @@ footer {
 /* Style labels, inputs, and the submit button as previously suggested */
 
 .right-container {
-    width: 40%; /* Set the other content container to take up 50% of the screen width */
+    width: 50%; /* Set the other content container to take up 50% of the screen width */
     padding: 20px;
     box-sizing: border-box; /* Include padding in the width calculation */
     /* Add styles for the other content as needed */

@@ -18,7 +18,7 @@ class Footer extends HTMLElement {
             <div>Or send me an email with any questions:</div>
             <a href="khammenscout@gmail.com">khammenscout@gmail.com</a>
         </div>
-        <div class="rcolumn">Last updated: 10/26/2023</div>
+        <div class="rcolumn">Last updated: 10/27/2023</div>
     </footer>`;
     }
   }
