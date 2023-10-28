@@ -36,6 +36,9 @@ body {
     .centered {
         width: 100%; /* Set the width to 100% of the screen width */
     }
+    img {
+        width: 45%;
+    }
 }
 
 .showcase {
