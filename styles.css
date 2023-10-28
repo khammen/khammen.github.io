@@ -24,10 +24,21 @@ body {
     text-align: center
 }
 
+.contact-container {
+    width: 60%; /* Set the form container to take up 50% of the screen width */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
 @media (min-width: 768px) {
     .centered {
         width: 40%; /* Set the width to 33% of the screen width */
         margin: 0 auto; /* Center the element horizontally */
+    }
+    .contact-container {
+        width: 60%; /* Set the form container to take up 50% of the screen width */
+        padding: 20px;
+        box-sizing: border-box; /* Include padding in the width calculation */
     }
 }
 
@@ -39,6 +50,9 @@ body {
     img {
         width: 45%;
         height: 25%;
+    }
+    .contact-container{
+        width: 100%;
     }
 }
 
@@ -166,12 +180,6 @@ footer {
 .container {
     display: flex;
     justify-content: space-between;
-}
-
-.contact-container {
-    width: 60%; /* Set the form container to take up 50% of the screen width */
-    padding: 20px;
-    box-sizing: border-box; /* Include padding in the width calculation */
 }
 
 .left-container{
